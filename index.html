@@ -1,0 +1,25 @@
+import Hero from '@/components/ui/animated-shader-hero'
+
+// In your component
+<Hero
+  trustBadge={{
+    text: "Your custom text",
+    icons: ["✨", "🚀"]
+  }}
+  headline={{
+    line1: "First Line",
+    line2: "Second Line"
+  }}
+  subtitle="Your subtitle text"
+  buttons={{
+    primary: {
+      text: "Primary Action",
+      onClick: () => console.log('clicked')
+    },
+    secondary: {
+      text: "Secondary Action",
+      onClick: () => console.log('clicked')
+    }
+  }}
+  className="custom-classes"
+/>
